@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>별트리 만들기</title>
+</head>
+<body>
+<script>
+
+
+	for(let i=0; i<16; i++){//행
+		
+		for(let j=0; j<15-i; j++){
+			document.write("&nbsp")
+		}
+		for(let k=0; k<2*i+1 ;k++) {
+			document.write("*")
+		}
+		document.write("<br>")
+	}
+	
+
+</script>
+</body>
+</html>

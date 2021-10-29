@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>구구단 출력</title>
+</head>
+<body>
+<table border=1>
+<script>
+for(let i=1; i<10;i++){
+	if(i%2==0){
+		document.write("<tr><td>")
+		document.write(i+"   단<br>");
+		for(let j=1; j<10; j++){
+		document.write(i+" x "+j+" = "+i*j+"<br>")
+		}
+	}
+	
+}
+document.write("</td></tr>")
+</script>
+</table>
+</body>
+</html>
